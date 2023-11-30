@@ -1,18 +1,15 @@
 import React, { useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import {
-  increment,
-  incrementAsync,
-  selectCount,
-} from './counterSlice';
 
-export function Counter() {
-  const count = useSelector(selectCount);
+} from './orderSlice';
+
+export function Order() {
   const dispatch = useDispatch();
 
   return (
     <div>
-      
+      <h1>order Page</h1>
     </div>
   );
 }
